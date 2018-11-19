@@ -10,7 +10,7 @@
       - UltraForceDiesel
   2. Oil pricing brand behavior: วิเคราะห์พฤติกรรมของราคาน้ำมันทั้ง 5 ชนิด
      - ราคาสูงหรือต่ำ
-  3. Oil Price each years : กราฟราคาน้ำมันแต่ล่ะปีของทั้ง 5 ชนิด
+  3. Oil Price each years : กราฟราคาน้ำมันแต่ล่ะปีของทั้ง 5 ชนิด ตั้งแต่ปี พ.ศ.2554 ถึง พ.ศ.2560
 
 ## Changelog
 Version 1.1.0 (12 สิงหาคม 2018)
