@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-df_collect = pd.read_excel('2558.xlsx', sheet_name = 'ค่าเฉลี่ยราคาน้ำมันแต่ละเดือน')
+df_collect = pd.read_excel('/Users/User/Documents/GitHub/OVERFLOW-PSIT/Oil price information/2558.xlsx', sheet_name = 'ค่าเฉลี่ยราคาน้ำมันแต่ละเดือน')
 List_x = df_collect['month'].tolist()
 List_y1 = df_collect['Gasohol 91'].tolist()
 List_y2 = df_collect['Gasohol 95'].tolist()
@@ -14,5 +14,6 @@ plt.plot(List_x, List_y4, label='Gasohol E85')
 plt.plot(List_x, List_y5, label='Ultra Force Diesel')
 plt.xlabel('month')
 plt.ylabel('price')
+plt.title('Oil Service Rate Price in 2558')
 plt.legend()
 plt.show()
