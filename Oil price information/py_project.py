@@ -17,7 +17,6 @@ def data_year_twentyfive_fiftyfour(): #2554
     plt.ylabel('price')
     plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
     plt.show()
-    plt.render_to_file('2554.svg')
 data_year_twentyfive_fiftyfour()
 
 def data_year_twentyfive_fiftyfive(): #2555
