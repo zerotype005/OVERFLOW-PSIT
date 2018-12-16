@@ -23,7 +23,7 @@ def analyze_data(filename, sheetname):
     box = ax.get_position()
     ax.set_position([box.x0, box.y0, box.width * 0.75, box.height])
     ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-    plt.title("Average Prices of Different Types of Gasolines in " + filename[:4])
+    plt.title("Average Prices of Different Types of Gasolines in " + filename[:7])
     plt.xlabel('month')
     plt.ylabel('price')
     plt.show()
