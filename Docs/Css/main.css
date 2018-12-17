@@ -357,13 +357,6 @@ ul li {
 	width: 100%;
 	height: 100%;
 }
-
-P.blocktext {
-    margin-left: auto;
-    font-family: 'Kanit', sans-serif;
-    margin-right: auto;
-    width: 6em
-}
 .work .overlay {
 	background: rgba(232, 69, 69, 0.9);
 	height: 100%;
