@@ -1,0 +1,5 @@
+Gasohol 91,36.54
+Gasohol 95,38.84
+Gasohol E20,34.37
+Gasohol E85,24.11
+Ultra Force Disel,29.68

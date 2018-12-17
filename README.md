@@ -12,30 +12,21 @@
      - ราคาสูงหรือต่ำ
   3. Oil Price each years : กราฟราคาน้ำมันแต่ล่ะปีของทั้ง 5 ชนิด ตั้งแต่ปี พ.ศ.2554 ถึง พ.ศ.2560
 
-## Changelog
-Version 1.1.0 (12 สิงหาคม 2018)
- - Multiprocessing support
-   - โปรแกรม ThaiTrend: Emoji สามารถประมวลผลข้อมูลโดยใช้ CPU พร้อมกันหลาย Cores/Threads จากเดิมสามารถใช้ได้เพียง 1 thread
- - 2018 Update
-   - ผู้วิจัยได้เพิ่มข้อมูลในระหว่างวันที่ 1 พฤศจิกายน 2017 ถึง 31 กรกฎาคม 2018 แล้วประมวลผลใหม่
- - Refactoring
-   - โค้ดบางส่วนที่เกี่ยวกับการประมวลผลข้อมูลถูกจัดระเบียบใหม่ และแยกออกไปเป็น module
-
 ## ข้อมูลที่นำมาวิจัย
  - ข้อมูลราคาน้ำมันจากเว็บกลางปตท. ตั้งแต่วันที่ 1 มกราคม พ.ศ.2554 ถึงวันที่ 31 ธันวาคม พ.ศ.2560
  - ข้อมูลมีขนาด 209 KB
 
 ## 3rd Party Libraries และ modules
  - matplotlip 2.2.2
- - emoji 0.5.0
  - pandas 0.23.0
+ - pygal 
 
 ## Output
 ข้อมูลที่ผ่านการประมวลผลแล้วจะถูกจัดเก็บเป็น Dictionary และถูกบันทึกลงบน Local Storage ด้วย Pickle หลังจากนั้นข้อมูลถูกนำมาแสดงผลเป็นกราฟผ่าน graph.py
 
 ## ผลลัพธ์
 ผลลัพธ์งานวิจัยได้ถูกแสดงไว้บนเว็บไซต์ของเรา
-`https://edu.bstudio.click/thaitrend-emoji`
+https://www.it.kmitl.ac.th/~it61070177/psit/index.html#introduction
 
 Made with love
 OVERFLOW Team
